@@ -1,4 +1,4 @@
-ARG UNIT_VARIANT=1.33.0-python3.12-slim
+ARG UNIT_VARIANT=1.34.2-python3.12-slim
 
 # Initialize virtual environement in a separate build image
 # We want to minimize work in target platform image as much as possible as it may run under emulation.
